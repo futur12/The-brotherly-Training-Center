@@ -12,6 +12,15 @@
     border: none;
 }
 
+body{
+    background-image: url(https://scontent.fkgl4-1.fna.fbcdn.net/v/t39.30808-6/464793561_1031750575631915_6764571100456441901_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gld-nwLTACcQ7kNvgHrGMYG&_nc_zt=23&_nc_ht=scontent.fkgl4-1.fna&_nc_gid=AMtjjREEE6hfQPEau4TI4la&oh=00_AYCp6QZ0-ejOBX-DOODyvsB6AZA3Ooy-E9AvgGXALcxEHA&oe=674CFC53);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(100);
+    /* opacity: 30%; */
+    /* background-position: 100%; */
+}
+
 .container{
 
     margin: 8em;
