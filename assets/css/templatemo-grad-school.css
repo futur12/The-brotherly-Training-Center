@@ -86,6 +86,7 @@ a.menu-link { display: none; }
     color: #fff;
     padding-right: 30px;
     padding-top: 15px;
+    display: none;
   }
   nav[role="navigation"] {
     clear: both;
@@ -149,10 +150,12 @@ a.menu-link { display: none; }
 @media screen and (max-width: 1050px) {
   .main-header .logo {
       padding-left: 30px!important;
+      display: none;
   }
 
   .main-menu {
       padding-right: 30px!important;
+      display: none;
   }
 
   .main-menu li {

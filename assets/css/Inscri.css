@@ -1,0 +1,56 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.container button{
+
+    background-color: rgba(11, 201, 42, 0.2);
+    border: none;
+}
+
+.container{
+
+    margin: 8em;
+}
+.container button:hover{
+    background-color: rgb(3, 131, 52);
+    transition: .4s ease-out;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.form form{
+    display:inline-block;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50px;
+    justify-content: space-between;
+    gap:40em;
+    justify-items: center;
+    margin: 40px;
+    padding: 20px;
+    position: relative ;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+}
+.form input{
+    padding: 5px;
+}
+
+
+
+
+
+
+
