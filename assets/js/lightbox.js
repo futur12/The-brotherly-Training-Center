@@ -13,6 +13,14 @@
  */
 
 // Uses Node, AMD or browser globals to create a module.
+function (root, factory){
+
+  if(typeof define=='string' && define.amd)
+  {
+    define(['jQuery'], factory)
+  }
+  else if{}
+}
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
